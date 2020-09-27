@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.header-body {
+    background-image: url("./images/msi.jpg");
+    padding: 1rem;
+    margin-bottom: 0px;
+}
+.header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: lightgrey;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+.nav-item {
+    display: inline;
+    margin: 10px;
+    padding: 1rem 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 0;
+}
+
+.nav-link:hover {
+    color: rgba(102, 95, 95, 0.445);
+}
+
+.main-content {
+    height: 1000px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-para {
+    color: whitesmoke;
+}
+
+.title-name {
+    color: #f1f1f1;
+    padding: 17rem 0;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+}
+
+body {
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+}
