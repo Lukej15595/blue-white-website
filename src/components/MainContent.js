@@ -17,7 +17,7 @@ function MyMainContent() {
             </p>
             <div class="box-container">
                 <div class="box">
-                    <p class="box-text">Shit about me</p>
+                    <p class="box-text">Stuff about me</p>
                     <img class="portrait" src={portrait} alt="Portrait of me" />
                 </div>
                 <div class="box">
