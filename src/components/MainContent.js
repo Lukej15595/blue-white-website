@@ -1,5 +1,6 @@
 import React from "react";
-const img = require("../images/msi.jpg");
+const portrait = require("../images/portrait.JPG");
+const msi = require("../images/msi.jpg");
 
 function MyMainContent() {
     return (
@@ -14,6 +15,16 @@ function MyMainContent() {
                 dolore voluptate dolore labore aliquip eiusmod duis incididunt
                 sint non eiusmod ex ut sunt.
             </p>
+            <div class="box-container">
+                <div class="box">
+                    <p class="box-text">Shit about me</p>
+                    <img class="portrait" src={portrait} alt="Portrait of me" />
+                </div>
+                <div class="box">
+                    <p class="box-text">Another thingy</p>
+                    <img class="portrait" src={msi} alt="graphics card" />
+                </div>
+            </div>
         </div>
     );
 }

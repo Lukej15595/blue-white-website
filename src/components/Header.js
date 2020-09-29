@@ -11,11 +11,6 @@ function MyHeader() {
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        Contact
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
                         Projects
                     </a>
                 </li>
@@ -24,8 +19,13 @@ function MyHeader() {
                         Experience
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Contact
+                    </a>
+                </li>
             </ul>
-            <h1 class="title-name">Luke Jacobs</h1>
+            <h1 class="title-name"> LUKE JACOBS</h1>
         </div>
     );
 }

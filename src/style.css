@@ -1,56 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;1,700&family=Nanum+Myeongjo:wght@800&display=swap");
 
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./images/blue-gradient.jpg");
+}
 .header-body {
-    background-image: url("./images/msi.jpg");
     padding: 1rem;
     margin-bottom: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .header-nav {
     list-style-type: none;
     margin: 0;
     padding: 1rem;
-    background-color: lightgrey;
-    opacity: 0.5;
+    background-color: #f5f5f5;
+    opacity: 0.6;
     border-radius: 15px;
 }
 
 .nav-item {
     display: inline;
-    margin: 10px;
-    padding: 1rem 2rem;
+    margin: 0;
+    padding: 1rem 0rem;
 }
 
 .nav-link {
     text-decoration: none;
-    color: black;
-    padding: 1rem 0;
+    color: #000000;
+    padding: 1rem 2rem;
 }
 
 .nav-link:hover {
-    color: rgba(102, 95, 95, 0.445);
-}
-
-.main-content {
-    height: 1000px;
-    margin: 0px 0px;
-    display: flex;
-    flex-direction: column;
-}
-
-.main-para {
-    color: whitesmoke;
+    color: #555555;
 }
 
 .title-name {
     color: #f1f1f1;
-    padding: 17rem 0;
+    padding: 7rem 0;
     text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-size: 2rem;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 4rem;
+    letter-spacing: 3px;
 }
 
-body {
-    background-color: #333333;
-    padding: 0;
-    margin: 0;
+.main-content {
+    height: 75vh;
+    margin: 0px 0px;
+    background-color: #f5f5f5;
+}
+
+.main-para {
+    color: #007ba7;
+    text-align: center;
+    font-size: 150%;
+    margin: 0px 0px;
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.box-container {
+    margin: 0px 350px;
+    display: flex;
+}
+
+.box {
+    border: solid #118cb8;
+    border-radius: 10px;
+    display: flex;
+    background-color: #007ba7;
+}
+
+.box-text {
+    padding: 8rem 2rem;
+    color: whitesmoke;
+}
+
+.box:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portrait {
+    width: 250px;
+    height: 325px;
+    border-radius: 10px;
+}
+
+.footer-line {
+    width: 20%;
+    background-color: #f1f1f1;
+    border: none;
+    height: 2px;
 }
